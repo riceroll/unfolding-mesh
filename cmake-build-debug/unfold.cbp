@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="unfold"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\OpenCV\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\CGAL\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/Roll/Desktop/unfold/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Roll/Desktop/unfold/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Roll/Desktop/unfold/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Roll/Desktop/unfold/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Roll/Desktop/unfold/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/Roll/Desktop/unfold/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Roll/Desktop/unfold/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Roll/Desktop/unfold/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Roll/Desktop/unfold/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Roll/Desktop/unfold/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/Roll/Desktop/unfold/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Roll/Desktop/unfold/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Roll/Desktop/unfold/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Roll/Desktop/unfold/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Roll/Desktop/unfold/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unfold">
+				<Option output="/Users/Roll/Desktop/unfold/cmake-build-debug/unfold" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Roll/Desktop/unfold/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gsl/2.3/include"/>
+					<Add directory="/Users/Roll/Desktop/unfold/cmake-build-debug"/>
+					<Add directory="/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/System/Library/Frameworks/GLUT.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Roll/Desktop/unfold/cmake-build-debug/Makefile&quot;  VERBOSE=1 unfold"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Roll/Desktop/unfold/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Roll/Desktop/unfold/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Roll/Desktop/unfold/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unfold/fast">
+				<Option output="/Users/Roll/Desktop/unfold/cmake-build-debug/unfold" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Roll/Desktop/unfold/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DCGAL_USE_MPFR"/>
+					<Add option="-DCGAL_USE_GMP"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/local/Cellar/gsl/2.3/include"/>
+					<Add directory="/Users/Roll/Desktop/unfold/cmake-build-debug"/>
+					<Add directory="/System/Library/Frameworks/OpenGL.framework"/>
+					<Add directory="/System/Library/Frameworks/GLUT.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Roll/Desktop/unfold/cmake-build-debug/Makefile&quot;  VERBOSE=1 unfold/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Roll/Desktop/unfold/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Roll/Desktop/unfold/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Roll/Desktop/unfold/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/Roll/Desktop/unfold/common.h">
+			<Option target="unfold"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/craft.cpp">
+			<Option target="unfold"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/dual.cpp">
+			<Option target="unfold"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/feature.cpp">
+			<Option target="unfold"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/gene.cpp">
+			<Option target="unfold"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/gene.h">
+			<Option target="unfold"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/main.cpp">
+			<Option target="unfold"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/matching.cpp">
+			<Option target="unfold"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/meshui.cpp">
+			<Option target="unfold"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/mst.cpp">
+			<Option target="unfold"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/project.cpp">
+			<Option target="unfold"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/random.cpp">
+			<Option target="unfold"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/random.h">
+			<Option target="unfold"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/render.cpp">
+			<Option target="unfold"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/scan.h">
+			<Option target="unfold"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/search.cpp">
+			<Option target="unfold"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/sheetui.cpp">
+			<Option target="unfold"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/stitch.cpp">
+			<Option target="unfold"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/timer.cpp">
+			<Option target="unfold"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/timer.h">
+			<Option target="unfold"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/ui.h">
+			<Option target="unfold"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/../../../../usr/local/lib/CGAL/CGALConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/../../../../usr/local/lib/CGAL/CGALExports.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/../../../../usr/local/lib/CGAL/CGALExports-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/../../../../usr/local/lib/CGAL/CGALLibConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/../../../../usr/local/lib/CGAL/UseCGAL.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/../../../../usr/local/lib/CGAL/CGAL_Macros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/../../../../usr/local/lib/CGAL/CGAL_VersionUtils.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/../../../../usr/local/lib/CGAL/CGAL_Common.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/../../../../usr/local/lib/CGAL/CGAL_Macros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/../../../../usr/local/lib/CGAL/CGAL_SetupFlags.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/../../../../usr/local/lib/CGAL/CGAL_GeneratorSpecificSettings.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\CGAL\"/>
+		</Unit>
+		<Unit filename="/Users/Roll/Desktop/unfold/../../../../usr/local/lib/CGAL/CGAL_TweakFindBoost.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\CGAL\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
